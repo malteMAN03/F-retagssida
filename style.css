@@ -8,7 +8,6 @@
     --teel: #20737d;
     --lightblue: #7cadaf;
     --cream: #cad9d1;
-
 }
 
 body{
@@ -18,7 +17,7 @@ body{
 nav{
     background-color: var(--lightblue);
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
 }
@@ -27,25 +26,23 @@ h1{
     padding-left: 6rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 42px;
+    font-size: 1.8vw;
     font-family: Tahoma;
-    color: var(--darkblue);  
 }
 
 .nav-links{
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 1.1vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 7rem;
-    gap: 8rem;
+    gap: 7rem;
 }
 
 main{
     margin-left: 29vw;
     margin-top: 16vh;
-    margin-bottom: 16vh;
     background-color: var(--teel);
     width: 42vw;
     height: 58vh;
@@ -56,11 +53,14 @@ h2{
     display: flex;
     justify-content: center;
     padding-top: 2vh;
-    font-size: 34px;
+    font-size: 1.6vw;
     font-family: Tahoma;
 }
 
 .omForetag{
+    padding: 2vh;
+    font-size: 0.9vw;
+    font-family: Arial;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }

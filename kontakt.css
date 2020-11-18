@@ -8,7 +8,6 @@
     --teel: #20737d;
     --lightblue: #7cadaf;
     --cream: #cad9d1;
-
 }
 
 body{
@@ -18,25 +17,25 @@ body{
 nav{
     background-color: var(--lightblue);
     width: 100vw;
-    height: 10%;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
 }
 
 h1{
     padding-left: 6rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    font-size: 42px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.8vw;
     font-family: Tahoma;
 }
 
 .nav-links{
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 1.1vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 7rem;
-    gap: 8rem;
+    gap: 7rem;
 }
