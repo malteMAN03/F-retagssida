@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkblue: #0c1d2a;
+    --teel: #20737d;
+    --lightblue: #7cadaf;
+    --cream: #cad9d1;
+
+}
+
+body{
+    background-color: var(--cream);
+}
+
+nav{
+    background-color: var(--lightblue);
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    padding-left: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 42px;
+    font-family: Tahoma;
+}
+
+.nav-links{
+    font-family: Tahoma;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 7rem;
+    gap: 8rem;
+}
