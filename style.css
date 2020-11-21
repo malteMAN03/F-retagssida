@@ -23,9 +23,9 @@ nav{
 }
 
 h1{
-    padding-left: 6rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 6vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     font-size: 1.8vw;
     font-family: Tahoma;
 }
@@ -36,8 +36,8 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 7rem;
-    gap: 7rem;
+    padding-right: 5vh;
+    gap: 5vw;
 }
 
 main{
@@ -46,21 +46,44 @@ main{
     background-color: var(--teel);
     width: 42vw;
     height: 58vh;
-    
 }
 
 h2{
     display: flex;
     justify-content: center;
-    padding-top: 2vh;
+    padding-top: 2vw;
     font-size: 1.6vw;
     font-family: Tahoma;
 }
 
 .omForetag{
-    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
     font-size: 0.9vw;
     font-family: Arial;
-    display: flex;
-    justify-content: space-around;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
+.profilbild{
+    height: 8vw;
+    padding-left: 7vw;
+    padding-top: 2vw;
+
+}
+
+#namnlankH{
+    font-family: Arial;
+    font-size: 1vw;
+    padding-left: 7.6vw;
+    padding-top: 2rem;
+}
+
+#namnlankP{
+    font-family: Arial;
+    font-size: 1vw;
+    padding-left: 8.9vw;
+}
+
+

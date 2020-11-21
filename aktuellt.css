@@ -23,9 +23,9 @@ nav{
 }
 
 h1{
-    padding-left: 6rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 6vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     font-size: 1.8vw;
     font-family: Tahoma;
 }
@@ -36,6 +36,49 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 7rem;
-    gap: 7rem;
+    padding-right: 5vh;
+    gap: 5vw;
+}
+
+header{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkblue);
+    color: var(--cream);
+    margin-left: 25vw;
+    font-size: 1.6vw;
+    font-family: Tahoma;
+    width: 50vw;
+    height: 6vh;
+}
+
+main{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    border-top: 2vh;
+    font-family: Tahoma;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.aktuellt{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 2vh;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    font-family: Arial;
+    font-size: 1vw;
+    background-color: var(--teel);
+    width: 20vw;
+    height: 30vh;
 }
