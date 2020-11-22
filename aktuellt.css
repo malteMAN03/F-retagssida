@@ -63,7 +63,7 @@ main{
 }
 
 h3{
-    border-top: 2vh;
+    padding-top: 2vh;
     font-family: Tahoma;
     font-size: 2vh;
     display: flex;
@@ -71,14 +71,17 @@ h3{
 }
 
 .aktuellt{
+    background-color: var(--teel);
+    width: 17vw;
+    height: 30vh;
+}
+
+.text{
     text-align: justify;
     text-justify: inter-word;
-    padding-top: 2vh;
-    padding-right: 1.5vw;
-    padding-left: 1.5vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
     font-family: Arial;
     font-size: 1vw;
-    background-color: var(--teel);
-    width: 20vw;
-    height: 30vh;
 }
